@@ -1,0 +1,98 @@
+abs d7, d30
+abs d17, d1
+abs v9.16b, v18.16b
+abs v9.2s, v18.2s
+abs v9.4h, v18.4h
+adc w3, w19, w30
+adc x30, x1, x17
+adcs w1, w11, w21
+adcs x2, x21, x7
+add w3, w5, w30
+add x10, x17, x9
+add w10, w17, w9, lsl #3
+add w10, w17, w9, sxtb
+add x27, x7, w29, sxtw
+;add x22, x11, w25  (illegal, needs extend)
+add w9, w5, #27
+add x11, x19, #0x100
+add x11, x19, #0x100000
+addg x5, x9, #32, #5
+addhn v9.8b, v10.8b, v11.8b
+addhn2 v9.2s, v10.2s, v11.2s
+addp d4, v3.2d
+addp v9.4h, v18.4h, v1.4h
+adds x27, x7, w29, uxtb
+adds w3, w8, #100
+adds w3, w8, #100, lsl #12
+adds x3, x8, #100, lsl #12
+adds x3, x8, #0x1000
+adds w13, w17, w30, lsl #3
+adds x13, x17, x30, lsr #3
+adds x13, x17, x30, asr #3
+adds x13, x17, x30
+addv v1.4h, v21.4h, v3.4h
+main: adr x3, main
+main: adrp x3, main
+aesd v9.16b, v11.16b
+aese v7.16b, v13.16b
+aesimc v1.16b, v30.16b
+aesmc v3.16b, v11.16b
+and v4.4h, v7.4h, v3.4h
+and w3, w8, #0x817
+and x3, x8, #0x314
+and w3, w7, w17, ror #7
+ands w7, w30, #0x1000
+and w3, w8, #0x934
+and x3, x8, #0x1934
+ands w1, w17, w9, asr #12
+asr w3, w8, w17
+asr x9, x1, x31
+asr w9, w1, #7
+asr x9, x1, #40
+asrv w9, w1, w30
+at s1e1r, x3
+at s1e1w, x5
+at s1e0r, x7
+at s1e0w, x9
+at s1e1rp, x13
+at s1e1wp, x23
+at s1e2r, x24
+at s1e2w, x27
+at s12e1r, x29
+at s12e1w, x17
+at s12e0r, x31
+at s12e0w, x7
+at s1e3r, x1
+at s1e3w, x9
+autda x3, x17
+autdza x3
+autdb x7, x19
+autdzb x9
+autia x9, x23
+autiza x7
+autia1716
+autiasp
+autiaz
+autib x3, x19
+autizb x3
+autib1716
+autibsp
+autibz
+axflag
+nop
+main: b.eq main
+main: b.ne main
+main: b.cs main
+main: b.cc main
+main: b.mi main
+main: b.pl main
+main: b.vs main
+main: b.vc main
+main: b.hi main
+main: b.ls main
+main: b.ge main
+main: b.lt main
+main: b.gt main
+main: b.le main
+main: b.al main
+main: b main

@@ -1,0 +1,171 @@
+abs.zw vf6zw, vf4 nop
+add.xyzw vf6,vf4,vf5 nop
+addi.xy vf4, vf5, I nop
+addq.xy vf4, vf5, Q nop
+addx.x vf3x, vf4x, vf5 nop
+addy.x vf3x, vf4x, vf5 nop
+addz.x vf3x, vf4x, vf5 nop
+addw.x vf3x, vf4x, vf5 nop
+adda.xy acc, vf4, vf5  nop
+addai.xy acc, vf4, I  nop
+addaq.xz acc, vf4, Q  nop
+addax.xz acc, vf4, vf23  nop
+adday.xz acc, vf4, vf23  nop
+addaz.xz acc, vf4, vf23  nop
+addaw.xz acc, vf4, vf23  nop
+addw[em].x vf3x, vf4x, vf5 nop
+clipw.xyz vf3, vf4 nop
+ftoi0.x vf3, vf30 nop
+ftoi4.yz vf3, vf4 nop
+ftoi12.w vf3, vf23 nop
+ftoi15.xw vf3, vf31 nop
+itof0.x vf3, vf30 nop
+itof4.yz vf3, vf4 nop
+itof12.w vf3, vf23 nop
+itof15.xw vf3, vf31 nop
+madd.xzw vf6,vf4,vf5 nop
+maddi.xy vf4, vf5, I nop
+maddq.xy vf4, vf5, Q nop
+maddx.x vf3, vf4, vf5 nop
+maddy.xy vf3, vf4, vf5 nop
+maddz.xz vf3, vf4, vf5 nop
+maddw.yw vf3, vf4, vf5 nop
+madda.xy acc, vf4, vf5  nop
+maddai.xy acc, vf4, I  nop
+maddaq.xz acc, vf4, Q  nop
+maddax.xz acc, vf4, vf23  nop
+madday.xz acc, vf4, vf23  nop
+maddaz.xz acc, vf4, vf23  nop
+maddaw.xz acc, vf4, vf23  nop
+max.xz vf3, vf4, vf5 nop
+maxi.xy vf4, vf5, I nop
+maxx.xz vf11, vf4, vf23  nop
+maxy.xz vf11, vf4, vf23  nop
+maxz.xz vf11, vf4, vf23  nop
+maxw.xz vf11, vf4, vf23  nop
+mini.xz vf3, vf4, vf5 nop
+minii.xy vf4, vf5, I nop
+minix.xz vf11, vf4, vf23  nop
+miniy.xz vf11, vf4, vf23  nop
+miniz.xz vf11, vf4, vf23  nop
+miniw.xz vf11, vf4, vf23  nop
+msub.xzw vf6,vf4,vf5 nop
+msubi.xy vf4, vf5, I nop
+msubq.xy vf4, vf5, Q nop
+msubx.x vf3, vf4, vf5 nop
+msuby.xy vf3, vf4, vf5 nop
+msubz.xz vf3, vf4, vf5 nop
+msubw.yw vf3, vf4, vf5 nop
+msuba.xy acc, vf4, vf5  nop
+msubai.xy acc, vf4, I  nop
+msubaq.xz acc, vf4, Q  nop
+msubax.xz acc, vf4, vf23  nop
+msubay.xz acc, vf4, vf23  nop
+msubaz.xz acc, vf4, vf23  nop
+msubaw.xz acc, vf4, vf23  nop
+mul.xzw vf6,vf4,vf5 nop
+muli.xy vf4, vf5, I nop
+mulq.xy vf4, vf5, Q nop
+mulx.x vf3, vf4, vf5 nop
+muly.xy vf3, vf4, vf5 nop
+mulz.xz vf3, vf4, vf5 nop
+mulw.yw vf3, vf4, vf5 nop
+mula.xy acc, vf4, vf5  nop
+mulai.xy acc, vf4, I  nop
+mulaq.xz acc, vf4, Q  nop
+mulax.xz acc, vf4, vf23  nop
+mulay.xz acc, vf4, vf23  nop
+mulaz.xz acc, vf4, vf23  nop
+mulaw.xz acc, vf4, vf23  nop
+nop nop
+nop[d] nop
+nop[iemdt] nop
+opmula.xyz acc, vf4, vf5 nop
+opmsub.xyz vf7, vf4, vf5 nop
+sub.xyzw vf6,vf4,vf5 nop
+subi.xy vf4, vf5, I nop
+subq.xy vf4, vf5, Q nop
+subx.x vf3x, vf4x, vf5 nop
+suby.x vf3x, vf4x, vf5 nop
+subz.x vf3x, vf4x, vf5 nop
+subw.x vf3x, vf4x, vf5 nop
+suba.xy acc, vf4, vf5  nop
+subai.xy acc, vf4, I  nop
+subaq.xz acc, vf4, Q  nop
+subax.xz acc, vf4, vf23  nop
+subay.xz acc, vf4, vf23  nop
+subaz.xz acc, vf4, vf23  nop
+subaw.xz acc, vf4, vf23  nop
+main: nop b main
+main: nop bal vi4, main
+nop div q, vf3y, vf7z
+nop eatan p, vf3y
+nop eatanxy p, vf3
+nop eatanxz p, vf3
+nop eexp p, vf28z
+nop eleng p, vf27
+nop ercpr p, vf27w
+nop erleng p, vf27
+nop ersadd p, vf26
+nop ersqrt p, vf26y
+nop esadd p, vf26
+nop esin p, vf26y
+nop esqrt p, vf26y
+nop esum p, vf26
+nop fcand vi01, 0x123456
+nop fcand vi01, 0x123456
+nop fceq vi01, 0x123456
+nop fcget vi13
+nop fcor vi01, 0x123456
+nop fcset 0x123456
+nop fmand vi17, vi30
+nop fmeq vi17, vi30
+nop fmor vi17, vi30
+nop fsand vi17, 0x123
+nop fsand vi17, 0x912
+nop fseq vi17, 0x912
+nop fsor vi17, 0x912
+nop fsset 0x900
+nop iadd vi17, vi27, vi10
+nop iaddi vi17, vi27, -5
+nop iaddiu vi17, vi27, 0x7123
+nop iaddiu vi17, vi27, 0x0123
+nop iaddiu vi17, vi27, 0x0823
+nop iand vi17, vi27, vi10
+main: nop ibeq vi17, vi27, main
+main: nop ibgez vi27, main
+main: nop ibgtz vi27, main
+main: nop iblez vi27, main
+main: nop ibltz vi27, main
+main: nop ibne vi13, vi27, main
+nop ilw.y vi27, 101(vi21)
+nop ilwr.y vi27, (vi21)
+nop ior vi17, vi27, vi10
+nop isub vi17, vi27, vi10
+nop isubiu vi17, vi27, 0x7123
+nop isw.y vi27, 101(vi21)
+nop iswr.y vi27, (vi21)
+nop jalr vi5, vi6
+nop jr vi15
+nop lq.y vf27, 101(vi21)
+nop lqd.x vf27, (--vi21)
+nop lqi.x vf27, (vi21++)
+nop mfir.xy vf17, vi27
+nop mfp.xy vf17, P
+nop move.xy vf17, vf27
+nop mr32.xy vf17, vf27
+nop mtir vi17, vf27x
+nop rget.xy vf17, R
+nop rinit R, vf17x
+nop rnext.xy vf17, R
+nop rsqrt Q, vf17y, vf19x
+nop rxor R, vf17x
+nop sq.y vf27, 101(vi21)
+nop sqd.x vf27, (--vi21)
+nop sqi.x vf27, (vi21++)
+nop sqrt Q, vf17y
+nop waitp
+nop waitq
+nop xgkick vi10
+nop xitop vi10
+nop xtop vi10

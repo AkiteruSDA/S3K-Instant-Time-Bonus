@@ -1,0 +1,254 @@
+adc ($44,x)
+adc $44,s
+adc $44
+adc [$44]
+adc #$44
+adc $4444
+adc $444444
+adc ($44),y
+adc ($44)
+adc ($44,s),y
+adc $44,x
+adc [$44],y
+adc $4444,y
+adc $4444,x
+adc $444444,x
+and ($44,x)
+and $44,s
+and $44
+and [$44]
+and #$44
+and $4444
+and $444444
+and ($44),y
+and ($44)
+and ($44,s),y
+and $44,x
+and [$44],y
+and $4444,y
+and $4444,x
+and $444444,x
+asl $44
+asl
+asl $4444
+asl $44,x
+asl $4444,x
+label_bcc: bcc label_bcc
+label_bcs: bcs label_bcs
+label_beq: beq label_beq
+bit $44
+bit $4444
+bit $44,x
+bit $4444,x
+bit #$44
+label_bmi: bmi label_bmi
+label_bne: bmi label_bne
+label_bpl: bmi label_bpl
+label_bra: bmi label_bra
+brk
+label_brl: brl label_brl
+label_bvc: bmi label_bvc
+label_bvs: bmi label_bvs
+clc
+cld
+cli
+clv
+cmp ($44,x)
+cmp $44,s
+cmp $44
+cmp [$44]
+cmp #$44
+cmp $4444
+cmp $444444
+cmp ($44),y
+cmp ($44)
+cmp ($44,s),y
+cmp $44,x
+cmp [$44],y
+cmp $4444,y
+cmp $4444,x
+cmp $444444,x
+cop #$44
+cpx #$44
+cpx $44
+cpx $4444
+cpy #$44
+cpy $44
+cpy $4444
+dec
+dec $44
+dec $4444
+dec $44,x
+dec $4444,x
+dex
+dey
+eor ($44,x)
+eor $44,s
+eor $44
+eor [$44]
+eor #$44
+eor $4444
+eor $444444
+eor ($44),y
+eor ($44)
+eor ($44,s),y
+eor $44,x
+eor [$44],y
+eor $4444,y
+eor $4444,x
+eor $444444,x
+inc
+inc $44
+inc $4444
+inc $44,x
+inc $4444,x
+inx
+iny
+jmp $4444
+jmp $444444
+jmp ($4444)
+jmp ($44,x)
+jmp [$4444]
+jsr $4444
+jsr $444444
+jsr ($4444,x)
+lda ($44,x)
+lda $44,s
+lda $44
+lda [$44]
+lda #$44
+lda $4444
+lda $444444
+lda ($44),y
+lda ($44)
+lda ($44,s),y
+lda $44,x
+lda [$44],y
+lda $4444,y
+lda $4444,x
+lda $444444,x
+ldx #$44
+ldx $44
+ldx $4444
+ldx $44,y
+ldx $4444,y
+ldy #$44
+ldy $44
+ldy $4444
+ldy $44,x
+ldy $4444,x
+lsr $44
+lsr
+lsr $4444
+lsr $44,x
+lsr $4444,x
+mvp $44,$44
+mvn $44,$44
+nop
+ora ($44,x)
+ora $44,s
+ora $44
+ora [$44]
+ora #$44
+ora $4444
+ora $444444
+ora ($44),y
+ora ($44)
+ora ($44,s),y
+ora $44,x
+ora [$44],y
+ora $4444,y
+ora $4444,x
+ora $444444,x
+pea $4444
+pei ($44)
+label_per: per label_per
+pha
+phb
+phd
+phk
+php
+phx
+phy
+pla
+plb
+pld
+plp
+plx
+ply
+rep #$44
+rol $44
+rol
+rol $4444
+rol $44,x
+rol $4444,x
+ror $44
+ror
+ror $4444
+ror $44,x
+ror $4444,x
+rti
+rtl
+rts
+sbc ($44,x)
+sbc $44,s
+sbc $44
+sbc [$44]
+sbc #$44
+sbc $4444
+sbc $444444
+sbc ($44),y
+sbc ($44)
+sbc ($44,s),y
+sbc $44,x
+sbc [$44],y
+sbc $4444,y
+sbc $4444,x
+sbc $444444,x
+sec
+sed
+sei
+sep #$44
+sta ($44,x)
+sta $44,s
+sta $44
+sta [$44]
+sta $4444
+sta $444444
+sta ($44),y
+sta ($44)
+sta ($44,s),y
+sta $44,x
+sta [$44],y
+sta $4444,y
+sta $4444,x
+sta $444444,x
+stp
+stx $44
+stx $4444
+stx $44,y
+sty $44
+sty $4444
+sty $44,x
+stz $44
+stz $44,x
+stz $4444
+stz $4444,x
+tax
+tay
+tcd
+tcs
+trb $44
+trb $4444
+tsb $44
+tsb $4444
+tsc
+tsx
+txa
+txs
+txy
+tya
+tyx
+wai
+xba
+xce
